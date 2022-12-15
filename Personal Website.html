@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Personal Website</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<nav class="navbar">
+		<ul>
+			<li><a href="#home">HOME</a></li>
+			<li><a href="#gallery">GALLERY</a></li>
+			<li><a href="#contact">CONTACT US</a></li>
+			<li><a href="#about">ABOUT ME</a></li>
+		</ul>
+	</nav>
+	
+	<section id="home">
+		<div class="main">
+			<span class="txt1"> WELCOME TO MY</span>
+			<span class="txt2">Personal Website</span>
+		</div>
+
+		<figure>
+		
+			<figcaption>Listen to some music while exploring my site! <br> <b>Lost - Frank Ocean</b></figcaption>
+			
+				<video controls muted >
+					<source src="C:\Users\ASUS\Documents\HTML\1st sem. Finals\Personal Website\mv\Lost - Frank Ocean.mp4" type="video/mp4"/>
+					<source src="C:\Users\ASUS\Documents\HTML\1st sem. Finals\Personal Website\mv\Lost - Frank Ocean.mp4" type="video/ogg"/>
+
+            <p>
+                file type not supported
+                <a href="https://www.youtube.com/watch?v=Czs2B53M444">link of video</a>
+              </p>
+        </video>
+
+    </figure>
+	</section>
+	
+	<section id="gallery">
+		<h1 class="headings">GALLERY</h1>
+		<div class="pic">
+			<img src="Gallery/img1.jpg" alt="">
+			<img src="Gallery/img2.jpg" alt="">
+			<img src="Gallery/img3.jpg" alt="">
+			<img src="Gallery/img4.jpg" alt="">
+			<img src="Gallery/img5.jpg" alt="">
+			<img src="Gallery/img6.jpg" alt="">
+		</div>
+	</section>
+	
+	<section id="contact">
+		<div class="num">
+			<h1 class="headings">CONTACT US</h1>
+		</div>
+		
+		<p>MY LOCATION</p>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1785.31215363661!2d121.04490456503804!3d14.513771184604115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.
+		1!3m3!1m2!1s0x3397cf3211ce701f%3A0xe1c7c164e8942f53!2sEP%20Village%20Phase%201%20Covered%20Court%2C%20Taguig%2C%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1671010408200!5m2
+		!1sen!2sph" width="500" height="350" style="border:20;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		
+		<ul>
+			<li>
+				<a href="https://www.facebook.com/Ham.claude/">
+					<ion-icon name="logo-facebook"></ion-icon>
+				</a>
+				<a href="https://instagram.com/hamcdb/">
+					<ion-icon name="logo-instagram"></ion-icon>	
+				</a>
+			</li>
+		</ul>
+		
+		<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+		<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+		
+	</section>
+	<section id="about">
+		<div id="pic">
+			<h1 class="headings">ABOUT ME</h1>
+		</div>
+		
+		<img src="Gallery/pic1.png" alt="">
+		<p id="js">
+			My name is Ham Claude Del Mundo Borja, or simply <b>Ham</b>. I am an 18-year old guy from Balanga 
+			City, Bataan, who was born on December 26, 2003. EP Village Phase 1 Brgy Pinagsama Taguig City 
+			is where I live. I was born and raised by my amazing parents; Armando Borja, my father and Marinet Del
+			Mundo, my mother. I finished my beloved pre-school experience, as well as my high school journey, at EP Ville Integrated Academy (EPVIA).
+			I am currently studying BS IT in Adamson University. One day, I want to be a basketball varsity here in Adamson University so that I can less 
+			the tuition expenses and at the same time, I am enjoying the sport I loved to play.
+		</p>
+		
+		<button type="button" onclick="document.getElementById('js').style.display='none'">Click to Hide</button>
+		<button type="button" onclick="document.getElementById('js').style.display='block'">Click to Unhide</button>
+
+	</section>	
+	
+</body>
+</html>
